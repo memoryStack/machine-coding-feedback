@@ -1,0 +1,57 @@
+
+
+UseCases
+    1. re/start the game
+    2. Player will throw the Dice
+    3. move the piece
+    4. Snake will eat the piece
+    5. piece will climb the ladder
+    6. a refree or game manager will manage the game
+
+UseCase Detailed Description
+    1. re/start the game
+        a new game will be re/started fresh. Snakes, Ladders and players inputs will
+        be taken and all the pieces will move to the starting position on the board
+        
+    2. Player will throw the Dice
+        the players will start rolling the dice as their turn comes.
+
+    2. move the piece
+        piece will be moved by the number(1-6) that came on the dice in previous roll.
+        if piece is near 100 then move piece only if it can exactly go to 100.
+    
+    3. Snake will eat the piece
+        when a piece stops moving and if at that position a snake's mouth appear then
+        the piece will be eaten by the snake and piece will be thrown out at the tail
+        of the snake
+    
+    4. piece will climb the ladder
+        when a piece stops moving and if at that position a ladder's lower end appears then
+        the piece will climb that ladder and it will appear at the top of the ladder
+    
+    5. a refree or game manager will manage the game
+        a refree will start the game, will take inputs in the program, will take care if
+        all the game rules are being followed or not properly. will declare the winner as well.
+
+Nouns in the UseCase Descriptions (these will identify objects/classes or their attributes)
+    1. Game
+    2. Snakes
+    3. Ladders
+    4. Players
+    5. Pieces
+    6. GameBoard
+    7. Dice
+    8. Dice Number
+    9. Refree/Manager
+    10. Game Winner
+    11. add a Game Controller/GameRules class as well that will contain
+        all the game related logic in it
+
+Filtered Classes from these Nouns
+    1. GameRules
+    2. Snakes
+    3. Ladders
+    4. Players
+    5. Dice
+    6. Game
+    
