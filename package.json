@@ -1,0 +1,25 @@
+{
+  "name": "machine-coding-feedback",
+  "version": "1.0.0",
+  "description": "Get your [practice machine coding](https://workat.tech/machine-coding/practice) solutions reviewed by [Gaurav Chandak](https://www.linkedin.com/in/gcnit/) and get feedback before your machine coding round.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memoryStack/machine-coding-feedback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/memoryStack/machine-coding-feedback/issues"
+  },
+  "homepage": "https://github.com/memoryStack/machine-coding-feedback#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
