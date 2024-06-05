@@ -1,6 +1,6 @@
 import { Dice } from "./dice";
 
-describe('', () => {
+describe('Dice', () => {
     const dice = new Dice();
     test('number will be between 1 and 6', () => {
         const num = dice.roll();
