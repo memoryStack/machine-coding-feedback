@@ -20,9 +20,15 @@ class Player {
 
     play(dice, gameRules) {
         const stepsToMove = dice.roll()
-        this.setPosition(gameRules.getNextPosition(this.#position, stepsToMove))
+        const finalPosition = gameRules.getNextPosition(this.#position, stepsToMove)
+        const moveDetails = {
+            diceRollValue: stepsToMove,
+            initialPosition: this.getPosition(),
+            finalPosition
+        }
+        this.setPosition(finalPosition)
+        return moveDetails
     }
-
 }
 
-export { Player }
+module.exports = { Player }

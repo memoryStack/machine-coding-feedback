@@ -23,4 +23,6 @@ class GameRules {
     }
 }
 
-export { GameRules }
+module.exports = {
+    GameRules
+}

@@ -21,4 +21,4 @@ class Snakes {
     }
 }
 
-export { Snakes }
+module.exports = { Snakes }
