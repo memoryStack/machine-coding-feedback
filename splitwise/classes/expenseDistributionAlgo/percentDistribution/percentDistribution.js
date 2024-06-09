@@ -1,4 +1,4 @@
-import { ExpenseStrategy } from './expenseStrategy'
+import { ExpenseStrategy } from '../expenseStrategy'
 
 class PercentDistribution extends ExpenseStrategy {
     #expensePayer
