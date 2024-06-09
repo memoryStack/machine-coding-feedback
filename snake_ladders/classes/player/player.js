@@ -18,6 +18,7 @@ class Player {
         this.#position = newPosition
     }
 
+    // caller dice and gameRules object will be passed
     play(dice, gameRules) {
         const stepsToMove = dice.roll()
         const finalPosition = gameRules.getNextPosition(this.#position, stepsToMove)

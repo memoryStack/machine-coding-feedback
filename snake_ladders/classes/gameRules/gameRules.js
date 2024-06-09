@@ -2,6 +2,7 @@ class GameRules {
     #snakes
     #ladders
     #players
+    // TODO: input here data which helps constructing the GameRules
     constructor(players, snakes, ladders) {
         this.#snakes = snakes
         this.#ladders = ladders
@@ -16,6 +17,7 @@ class GameRules {
         return finalPos
     }
 
+    // TODO: pass the player which moved the last
     getWinnerPlayer() {
         return this.#players.find(player => {
             return player.getPosition() === 100
