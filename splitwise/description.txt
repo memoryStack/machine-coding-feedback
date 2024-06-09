@@ -21,4 +21,6 @@ Nouns
     4. Balance
     5. Expense Distribution Type
     6. Expense Report
-    
+
+
+generate the username/all other details based on the user_id
