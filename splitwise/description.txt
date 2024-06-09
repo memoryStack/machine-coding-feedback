@@ -1,0 +1,24 @@
+
+UseCases
+    1. users should be able to add any amount and select the type of distribution with available friends
+    2. should show expenses for a single user and balance for all the users
+    3. application should show balance of a user with all the other users if balance is != 0
+
+UseCases Detailed Description
+    1. 
+
+    SHOW u1
+        it should output all the money "u1" owes to other users
+        and should output all the money that all the users owes to "u1"
+    
+    SHOW
+        it should be like SHOW u1, SHOW u2 (for each user) ...
+
+Nouns
+    1. User
+    2. Amount
+    3. Expense
+    4. Balance
+    5. Expense Distribution Type
+    6. Expense Report
+    
