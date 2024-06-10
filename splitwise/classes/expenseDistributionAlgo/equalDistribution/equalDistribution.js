@@ -1,4 +1,4 @@
-import { ExpenseStrategy } from '../expenseStrategy'
+const {ExpenseStrategy} = require('../expenseStrategy')
 
 class EqualDistribution extends ExpenseStrategy {
     #expensePayer

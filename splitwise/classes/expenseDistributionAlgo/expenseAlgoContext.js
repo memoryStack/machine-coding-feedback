@@ -8,8 +8,8 @@ class ExpenseContext {
     }
 
     getExpenseDistribution() {
-        this.strategy.pay()
+        return this.strategy.getExpenseDistribution()
     }
 }
 
-modules.exports = { ExpenseContext }
+module.exports = { ExpenseContext }

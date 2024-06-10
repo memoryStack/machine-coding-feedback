@@ -7,9 +7,9 @@ class BalanceReportContext {
         this.strategy = strategy;
     }
 
-    getBalanceReport() {
-        this.strategy.getBalanceReport()
+    getBalanceReport(userIds, balances, usersRepository) {
+        return this.strategy.getBalanceReport(userIds, balances, usersRepository)
     }
 }
 
-modules.exports = { BalanceReportContext }
+module.exports = { BalanceReportContext }

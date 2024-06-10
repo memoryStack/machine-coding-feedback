@@ -1,5 +1,4 @@
-import { BalanceReportStrategy } from '../balanceReportStrategy'
-
+const { BalanceReportStrategy } = require('../balanceReportStrategy')
 class AllUsersBalanceReport extends BalanceReportStrategy {
     constructor() {
         super();

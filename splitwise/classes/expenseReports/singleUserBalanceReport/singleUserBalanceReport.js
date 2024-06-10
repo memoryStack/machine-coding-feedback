@@ -1,4 +1,4 @@
-import { BalanceReportStrategy } from '../balanceReportStrategy'
+const { BalanceReportStrategy } = require('../balanceReportStrategy')
 
 class SingleUserBalanceReport extends BalanceReportStrategy {
     #userId
